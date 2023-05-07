@@ -35,7 +35,7 @@ The nodes that have a minimum degree of 29 and a minimum percenatge of 0.6 of ge
 The nodes that have a minimum degree of 29 and a minimum percenatge of 0.6 of gender;anonymized 1 ordered by LOWEST DUMMEY:
 [(3327, 33, 0.6060606, 20), (2257, 38, 0.6052632, 23), (2547, 39, 0.61538464, 24), (3224, 51, 0.60784316, 31)]
 
-Just to reiterate, each tuple follows the structure: (node id, connections, proportion of gender variable 78 = 1, connections where gender variable 78 = 1)
+Just to reiterate, each tuple follows the structure: (node id, connections, proportion of gender variable 78 = 1, connections where gender variable 78 = 1). One easy conclusion to draw from this output is that if you are trying to find the best person to market a product to gender; anonymized feature 78, you would pick the individual represented by node 3224, as they have the highest amount of connections of that particular gender.
 
 **Sources**
 
