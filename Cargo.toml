@@ -1,0 +1,25 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "features"
+path = "src/features.rs"
+
+[[bin]]
+name = "graph"
+path = "src/graph.rs"
+
+[[bin]]
+name = "filter"
+path = "src/filter.rs"
+
+[[bin]]
+name = "test"
+path = "src/test.rs"
+
+[dependencies]
+
