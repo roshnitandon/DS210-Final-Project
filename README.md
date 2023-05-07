@@ -12,7 +12,7 @@ Additionally, The functions, highest_pct and highest_degree, then take those eli
 
 **How to Run the Code**
 
-Firstly, this link does not include the data files, so you will have to download the data yourself using the link above and place it in a folder with my source and cargo code. In the folder with my code make sure to have a folder called facebook which contains the all the ego-nodes and their features. Also in the folder with my code be sure to have the faceboo_edges.txt file. On main.rs, you can control the degree and pct(percentage) arguments to use the functions eligible_nodes, highest_dummy, lowest_dummy, highest_pct, and highest_degree to your advantage.
+Firstly, this link does not include the data files, so you will have to download the data yourself using the link above and place it in a folder with my source and cargo code. In the folder with my code make sure to have a folder called facebook which contains the all the ego-nodes and their features you can get this by downloading facebook.tar.gz. Also in the folder with my code be sure to have the facebook_edges.txt file which I got from downloading and renaming facebook_combined.txt.gz. On main.rs, you can control the degree and pct(percentage) arguments to use the functions eligible_nodes, highest_dummy, lowest_dummy, highest_pct, and highest_degree to your advantage.
 
 In my source file, you will also find the modules graph.rs, filters.rs, features.rs, and test.rs. They all have small comments explaining their purpose and how they relate to the main function. Specifically, test.rs contains sample data that runs through the same code in main.rs, and checks to see if my functions work(they do!). 
 
